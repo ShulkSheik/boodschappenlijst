@@ -1,0 +1,44 @@
+body{
+  font-family: sans-serif;
+  transform-origin: left top;
+  transform: scale(2);
+  max-width:950px;
+}
+
+table{
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+
+thead{
+  background-color: rgb(147, 83, 206);
+  color: rgb(236, 240, 240);
+  font-weight: bold;
+}
+
+.product{
+  background-color: rgb(243, 210, 252);
+}
+
+tfoot{
+  border-top: 1px solid black;
+}
+
+nav {
+  background-color: rgb(146, 62, 163);
+  padding: 5px 10px 5px;
+  margin-bottom: 20px;
+}
+
+a {
+  color: rgb(236, 240, 240);
+  padding-right: 5px;
+}
+
+#return404 {
+  color: rgb(43, 46, 226);
+}
+
+.error {
+  color: rgb(224, 5, 224);
+}
